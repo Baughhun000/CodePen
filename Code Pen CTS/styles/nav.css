@@ -1,0 +1,61 @@
+.navigation-wrapper {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+}
+
+.navigation-wrapper > .logo img {
+    width: 25%;
+    margin-left: 25px;
+}
+
+.navigation-wrapper > .logo {
+    margin-right: -600px;
+}
+
+.navigation-wrapper > .nav-link-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-left: -60px;
+}
+
+.navigation-wrapper > .nav-link-section > .nav-link a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.navigation-wrapper > .nav-link-section > .nav-link {
+    margin-top: 20px;
+}
+
+.navigation-wrapper > .nav-link-section > .nav-column > .nav-link a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.spark a {
+    text-decoration: none;
+    color: lightgrey;
+    font-size: 30px;
+}
+
+.spark {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.navigation-wrapper > .button-wrapper > .button {
+    padding: 15px;
+}
+
+.navigation-wrapper > .button-wrapper > .search-icon {
+    padding-top: 25px;
+    margin-left: 30px;
+}
